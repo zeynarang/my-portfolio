@@ -39,7 +39,16 @@ function Projects() {
               demoLink="https://zeynarang.github.io/codzilla-live/"
             />
           </Col>
-
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TravelCompany}
+              isBlog={false}
+              title="Travel Company"
+              description="A travel company website that offers a diverse range of travel packages, including flights, accommodations, and guided tours. "
+              ghLink="https://github.com/zeynarang/travel-company"
+              demoLink="https://zeynarang.github.io/travel-company/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RealEstate}
@@ -48,17 +57,6 @@ function Projects() {
               description="A Real Estate Advertising Website that allows users to view listings of houses for sale or rent, including a gallery of images for each property."
               ghLink="https://github.com/zeynarang/real-estate-advertising"
               demoLink="https://zeynarang.github.io/real-estate-advertising/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={TravelCompany}
-              isBlog={false}
-              title="Travel Company"
-              description=""
-              ghLink="https://github.com/zeynarang/travel-company"
-              demoLink="https://zeynarang.github.io/travel-company/"
             />
           </Col>
         </Row>
